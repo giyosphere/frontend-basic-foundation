@@ -59,5 +59,34 @@ header nav ul li{
 
 }
 
+/*four layout styles*/
+#four-layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
 
+#four-layout .content{
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  justify-content: space-evenly;
+}
+#four-layout .content .box{
+  background-color: #e5e7eb;
+  color: black;
+  padding: 2rem;
+  margin: 1rem;
+  flex: 1;
+}
 
+.border-1, .border-2, .border-3, .border-4{
+  border: 2px solid #3882f6;
+  background-color: white;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1cap;
+
+}
