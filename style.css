@@ -130,3 +130,49 @@ header nav ul li{
   font-weight: 700;
   color: #1f2937;
 }
+/*signup styles*/
+.signup{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ margin: 2rem;
+}
+
+.content-sign-up{
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 2;
+  justify-content: space-evenly;
+  padding: 2rem;
+  border-radius: 0.6cap;
+ 
+ 
+}
+
+.content-sign-up h2,p{
+  color: white;
+}
+
+.content-sign-up button{
+  background-color: #3882f6;
+  border-style: none;
+  border: 2px solid white ;
+  border-radius: 1cap;
+  padding: 5px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/*footer styles*/
+
+footer{
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
