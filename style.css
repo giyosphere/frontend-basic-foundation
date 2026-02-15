@@ -46,10 +46,10 @@ header nav ul li{
   color: black;
   padding: 5rem;
 }
-
 .hero-right p{
-  color: black;
+  color: #1f2937;
 }
+
 
 
 #hero .hero-left button{
@@ -107,7 +107,13 @@ header nav ul li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #1f2937;
 }
+
+#four-layout .content .first-content p, .content .second-content p, .content .third-content p, .content .fourth-content p {
+  color: #1f2937;
+}
+
 
 /*quote styles*/
 .quote {
