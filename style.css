@@ -47,6 +47,10 @@ header nav ul li{
   padding: 5rem;
 }
 
+.hero-right p{
+  color: black;
+}
+
 
 #hero .hero-left button{
   background-color: #3882f6;
